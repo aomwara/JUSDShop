@@ -23,9 +23,6 @@ import 'antd/dist/antd.css';
 import logo from './images/logo.png';
 
 
-
-
-
 const { SubMenu } = Menu;
 const { Header, Content } = Layout;
 
@@ -57,6 +54,7 @@ class HomePageLayout extends React.Component {
     this.data = require('../data.json')
     console.log(this.data)
     this.state = {
+      JUSDAmount:0,
       account: null,
       shopContract: null,
       confirmLoading: false,
@@ -70,7 +68,6 @@ class HomePageLayout extends React.Component {
   }
 
 
-
   componentDidMount() {
     this.loadWeb3().then(async () => {
       await this.loadBlockchainData();
@@ -79,7 +76,6 @@ class HomePageLayout extends React.Component {
     const itemCount = loadItemCount(this.state.account);
     const itemInCart = loadItemInCart(this.state.account);
     const total = loadTotal(this.state.account);
-
     this.setState({ itemCount: itemCount, itemInCart: itemInCart, total: total })
 
     window.ethereum.on('accountsChanged', function (accounts) {
@@ -89,14 +85,12 @@ class HomePageLayout extends React.Component {
           const itemCount = loadItemCount(this.state.account);
           const itemInCart = loadItemInCart(this.state.account);
           const total = loadTotal(this.state.account);
-
           this.setState({ itemCount: itemCount, itemInCart: itemInCart, total: total })
         })
 
       });
     }.bind(this));
   }
-
 
   // Load web3
   async loadWeb3() {
@@ -165,6 +159,9 @@ class HomePageLayout extends React.Component {
       // const order_count = this.props.contract.methods.order_count.call().call()
       // console.log(order_count)
       var orders = [];
+      await this.state.shopContract.methods.ownerBalance().call().then(async balance => {
+        this.setState({JUSDAmount:balance/100})
+      })
       await this.state.shopContract.methods.order_count.call().call().then(async order_count => {
         for (var i = 0; i < order_count; i++) {
           // eslint-disable-next-line
@@ -396,6 +393,7 @@ class HomePageLayout extends React.Component {
                       </List.Item>
                     )}
                   >
+
                     <List.Item style={{ color: 'white' }}>
                       <div style={{ width: 420, height: 50, "textAlign": "right", "margin-right": 20 }}>
                         <DollarCircleOutlined />
@@ -449,9 +447,10 @@ class HomePageLayout extends React.Component {
             </Menu>
           </Header>
           <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+
             <div>
               <Route exact path="/"><LandingPage account={this.state.account}></LandingPage></Route>
-
+               <h1>You Have {this.state.JUSDAmount}  $JUSD</h1>
 
               <Route exact path="/appliances">
                 <ItemPage2 class="Appliances" account={this.state.account} onAddItem={this.handleAddItem} />
