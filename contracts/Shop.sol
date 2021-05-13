@@ -16,7 +16,7 @@ contract Shop {
     */
 
     uint public order_count = 0;
-
+    
     mapping(uint => Order) public orders;
     mapping (uint256 => address[]) buying;
 
