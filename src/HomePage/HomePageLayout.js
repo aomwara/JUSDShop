@@ -311,11 +311,10 @@ class HomePageLayout extends React.Component {
     return (
       <Layout style={{ position: 'absolute', height: '100%', width: "100%" }}>
         <Router>
-          <Header className="header" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-            <Link to="/">
-              <img className="logo" src={logo} alt="logo" />
-            </Link>
-            <Menu theme="dark" mode="horizontal" sticky="top">
+          
+            <Menu theme="light" mode="horizontal" sticky="top">
+              <SubMenu title="JUSD Shopping">
+              </SubMenu>
               <SubMenu icon={<MenuOutlined />} title="Categories">
                 {/* Appliances */}
                 <SubMenu title="Appliances">
@@ -363,18 +362,18 @@ class HomePageLayout extends React.Component {
                   </Menu.Item>
                 </SubMenu>
               </SubMenu>
-              <SubMenu icon={<UserOutlined />} style={{ float: 'right', color: "white" }}>
+              <SubMenu icon={<UserOutlined />} style={{ float: 'right', color: "black" }}>
                 <Menu.Item ><Link to="/orders">Your Orders</Link></Menu.Item>
               </SubMenu>
               <SubMenu
-                icon={<Badge count={this.state.itemCount}><Button ghost><ShoppingCartOutlined />Shopping Cart</Button></Badge>}
+                icon={<Badge count={this.state.itemCount}><Button><ShoppingCartOutlined />Shopping Cart</Button></Badge>}
                 key="2"
                 theme="light"
                 style={{ float: 'right', color: "white" }}
               >
                 <div hidden={this.state.hidden}>
                   <List
-                    style={{ color: 'white', width: 420 }}
+                    style={{ color: 'black', width: 420 }}
                     itemLayout="horizontal"
                     dataSource={this.state.itemInCart}
                     renderItem={item => (
@@ -384,19 +383,18 @@ class HomePageLayout extends React.Component {
                         <List.Item.Meta
                           style={{ "margin-left": 20, }}
                           avatar={<Avatar src={item.picture} />}
-                          title={<div style={{ color: 'white' }}>{item.name}</div>}
+                          title={<div style={{ color: 'black' }}>{item.name}</div>}
                           description={<InputNumber value={item.amount} onChange={(value) => this.onChange(value, item)} />}
                         />
-                        <div style={{ color: 'white', width: 100, "margin-right": 20, }}>
+                        <div style={{ color: 'black', width: 100, "margin-right": 20, }}>
                           Price: ${Math.round(item.price * item.amount, 5)}
                         </div>
                       </List.Item>
                     )}
                   >
 
-                    <List.Item style={{ color: 'white' }}>
+                    <List.Item style={{ color: 'black' }}>
                       <div style={{ width: 420, height: 50, "textAlign": "right", "margin-right": 20 }}>
-                        <DollarCircleOutlined />
                       total: ${Math.round(this.state.total)}
                       </div>
                     </List.Item>
@@ -445,12 +443,12 @@ class HomePageLayout extends React.Component {
                 </div>
               </SubMenu>
             </Menu>
-          </Header>
-          <Content className="site-layout" style={{ padding: '0 50px', marginTop: 64 }}>
+
+          <Content className="site-layout" style={{ padding: '0 70px', marginTop: 30 }}>
 
             <div>
               <Route exact path="/"><LandingPage account={this.state.account}></LandingPage></Route>
-               <h1>You Have {this.state.JUSDAmount}  $JUSD</h1>
+               {/* <h1>You Have {this.state.JUSDAmount}  $JUSD</h1> */} 
 
               <Route exact path="/appliances">
                 <ItemPage2 class="Appliances" account={this.state.account} onAddItem={this.handleAddItem} />

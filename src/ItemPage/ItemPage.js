@@ -1,4 +1,4 @@
-import { Card, List } from 'antd';
+import { Card, List, Button, Avatar } from 'antd';
 import { Breadcrumb } from 'antd';
 import React from 'react';
 import './ItemPage.css';
@@ -44,10 +44,6 @@ class ItemPage extends React.Component {
         localStorage.setItem("itemInCart" + this.props.account, JSON.stringify(itemInCart))
 
         this.props.onAddItem(newItemCount, itemInCart);
-
-
-        // localStorage.setItem("itemCount", 0);
-        // localStorage.setItem("itemInCart", JSON.stringify([]))
     }
 
     render() {
@@ -61,23 +57,21 @@ class ItemPage extends React.Component {
                 <List
                     grid={{
                         gutter: 16,
-                        column: 8
+                        column: 6
                     }}
                     dataSource={this.newData}
                     renderItem={item => (
                         <List.Item>
                             <Card
-                                size="small"
-                                cover={<img alt={item.name} src={item.picture} />}
+                                style={{ "padding-top":"30px" }}
+                                cover={<img alt={item.name} src={item.picture}/>}
                                 actions={[
-                                    // <StarOutlined />,
-                                    <div />,
-                                    <PlusCircleOutlined onClick={() => this.add(item)} />
-                                ]}>
+                                    <Button shape="circle" icon="+" type="primary" onClick={() => this.add(item)}></Button>,
+                                ]}
+                              >
                                 <Meta
-
-                                    title={item.name}
-                                    description={<div>{"$" + item.price}</div>}
+                                  title={item.name}
+                                  description= <div style={{ color: "gray"}}>Price {"$" + item.price}</div>
                                 />
                             </Card>
                         </List.Item>
