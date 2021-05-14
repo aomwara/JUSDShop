@@ -1,5 +1,5 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const mnemonic = "b57135c2199e24e87cb78cce1c86e707527958370d2c9466435eef7998c4cedd";
+const mnemonic = "6e8b93d37dbd7f83ea981f157e39c1461e81d68110e44b9a972173bc5494d691";
 const liveNetwork = "https://wrnec-mainnet.aomwara.space";
 
 module.exports = {

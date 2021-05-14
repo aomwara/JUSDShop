@@ -63,7 +63,7 @@ class ItemPage extends React.Component {
                     renderItem={item => (
                         <List.Item>
                             <Card
-                                style={{ "padding-top":"30px" }}
+                                style={{ "paddingTop":"30px" }}
                                 cover={<img alt={item.name} src={item.picture}/>}
                                 actions={[
                                     <Button shape="circle" icon="+" type="primary" onClick={() => this.add(item)}></Button>,
