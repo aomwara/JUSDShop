@@ -17,6 +17,7 @@ import OrderPage from '../OrderPage/OrderPage.js';
 
 import Web3 from 'web3'
 import Shop from '../abis/Shop.json'
+import JUSDToken from '../abis/JUSDToken.json'
 
 import './HomePageLayout.css';
 import 'antd/dist/antd.css';
@@ -313,7 +314,7 @@ class HomePageLayout extends React.Component {
         <Router>
           
             <Menu theme="light" mode="horizontal" sticky="top">
-              <SubMenu title="JUSD Shopping">
+              <SubMenu title="JUSD Shopping" onTitleClick={() => window.location = '/'}>
               </SubMenu>
               <SubMenu icon={<MenuOutlined />} title="Categories">
                 {/* Appliances */}
