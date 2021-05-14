@@ -1,15 +1,20 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider');
-const fs = require('fs');
-//const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "b57135c2199e24e87cb78cce1c86e707527958370d2c9466435eef7998c4cedd";
+const liveNetwork = "https://wrnec-mainnet.aomwara.space";
 
 module.exports = {
-  // See <http://truffleframework.com/docs/advanced/configuration>
-  // for more about customizing your Truffle configuration!
+  
   networks: {
+
     development: {
       host: "127.0.0.1",
       port: 8545,
-      network_id: "*" // Match any network id
+      network_id: "*" 
+    },
+
+    live: {
+      provider: () => new HDWalletProvider(mnemonic, liveNetwork),
+      network_id: "*"
     }
   },
 
