@@ -1,212 +1,609 @@
 [
     {
       "id": 0,
-      "class": "Appliances",
-      "subclass": "Air Purifiers",
-      "name": "Pure Air Purifier",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14664/14664658.jpg",
-      "price": 899.99
+      "class": "Manga",
+      "subclass": "Fantasy",
+      "name": "EXEcutional",
+      "picture": "https://www.batorastore.com/image/cache/data/bookpics/9789749425220-500x500.jpg",
+      "price": 55
     },
     {
       "id": 1,
-      "class": "Appliances",
-      "subclass": "Air Purifiers",
-      "name": "Hot+Cool Air Purifier",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/133/13331/13331571.jpg",
-      "price": 699.99
+      "class": "Manga",
+      "subclass": "Fantasy",
+      "name": "Weathering With You",
+      "picture": "https://imagessl3.casadellibro.com/a/l/t7/53/9788418222153.jpg",
+      "price": 65
     },
     {
       "id": 2,
-      "class": "Appliances",
-      "subclass": "Air Purifiers",
-      "name": "Cool Link Purifier",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/104/10417/10417060.jpg",
-      "price": 349.99
+      "class": "Manga",
+      "subclass": "Fantasy",
+      "name": "Grand Blue Fantasy",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51hagx7EiNL._SX351_BO1,204,203,200_.jpg",
+      "price": 60
     },
     {
       "id": 3,
-      "class": "Appliances",
-      "subclass": "Air Purifiers",
-      "name": "JS FLO 2.0",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14967/14967899.jpg",
-      "price": 129.99
+      "class": "Manga",
+      "subclass": "Fantasy",
+      "name": "Blue Exorcist",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/513f6GFYa8L._SX331_BO1,204,203,200_.jpg",
+      "price": 55
     },
     {
       "id": 4,
-      "class": "Appliances",
-      "subclass": "Air Purifiers",
-      "name": "GermGuardian 4-in-1",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14636/14636677.jpg",
-      "price": 129.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "Fantasy",
+      "name": "Jujutsu Kaisen",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51CcaF9O78L._SX331_BO1,204,203,200_.jpg",
+      "price": 65
+    },
+
     {
       "id": 5,
-      "class": "Computers and Tablet Accessories",
-      "subclass": "Laptops and Desktops",
-      "name": "Apple MacBook air 13.3",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14627/14627724.jpg",
-      "price": 1329.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "School Life",
+      "name": "ReLIFE",
+      "picture": "https://upload.wikimedia.org/wikipedia/en/a/af/Relife_manga.jpg",
+      "price": 60
+    },
     {
       "id": 6,
-      "class": "Computers and Tablet Accessories",
-      "subclass": "Tablets, iPads and eReaders",
-      "name": "Apple iPad 10.2",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14961/14961798.jpg",
-      "price": 549.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "School Life",
+      "name": "Assassination Classroom",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/41rNRwYY52L._SX331_BO1,204,203,200_.jpg",
+      "price": 65
+    },
     {
       "id": 7,
-      "class": "Cell Phones",
-      "subclass": "iPhones",
-      "name": "Apple iPhone 8 64GB",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/135/13527/13527671.jpg",
-      "price": 129.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "School Life",
+      "name": "My Hero Academia",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51FAgOL-1bL._SX331_BO1,204,203,200_.jpg",
+      "price": 60
+    },
     {
       "id": 8,
-      "class": "Cell Phones",
-      "subclass": "Samsung Phones",
-      "name": "Samsung Galaxy A11 32GB",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/147/14789/14789828.jpg",
-      "price": 209.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "School Life",
+      "name": "Haikyu!!",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51fVy5dQQcL._SX331_BO1,204,203,200_.jpg",
+      "price": 60
+    },
     {
       "id": 9,
-      "class": "Cell Phones",
-      "subclass": "Google Phones",
-      "name": "Google Pixel 4a 128GB",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/148/14878/14878808.jpg",
-      "price": 479.99
+      "class": "Manga",
+      "subclass": "School Life",
+      "name": "Soul Eater",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51vqlqjF5zL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg",
+      "price": 60
     },
     {
       "id": 10,
-      "class": "Appliances",
-      "subclass": "Coffee & Espresso Makers",
-      "name": "GermGuardian 4-in-1",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14636/14636677.jpg",
-      "price": 129.99
+      "class": "Manga",
+      "subclass": "Action",
+      "name": "One Punch Man",
+      "picture": "https://img1.ak.crunchyroll.com/i/spire3/de4739a4945a6cb8c3ea66849343f5a11358195067_full.jpg",
+      "price": 65
     },
     {
       "id": 11,
-      "class": "Appliances",
-      "subclass": "Refrigerators & freezers",
-      "name": "Whirlpool Bottom Freezer",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/103/10395/10395453.jpg",
-      "price": 1249.99
+      "class": "Manga",
+      "subclass": "Action",
+      "name": "Attack on Titan",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51ywmxi7JVL._SX331_BO1,204,203,200_.jpg",
+      "price": 70
     },
     {
       "id": 12,
-      "class": "Appliances",
-      "subclass": "Refrigerators & freezers",
-      "name": "Insignia Bottom Refrigerator",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/135/13558/13558674.jpg",
-      "price": 899.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "Action",
+      "name": "Tokyo Ghoul",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51gTbdvr9tL._SX347_BO1,204,203,200_.jpg",
+      "price": 60
+    },
     {
       "id": 13,
-      "class": "Appliances",
-      "subclass": "Refrigerators & freezers",
-      "name": "Insignia Bottom Freezer",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/124/12487/12487558.jpg",
-      "price": 849.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "Action",
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "picture": "https://m.media-amazon.com/images/I/61Pi8jqIO4L.jpg",
+      "price": 65
+    },
     {
       "id": 14,
-      "class": "Appliances",
-      "subclass": "Refrigerators & freezers",
-      "name": "Insignia Bottom Freezer (Only at ehtershop)",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/135/13558/13558673.jpg",
-      "price": 999.99
-    }
-    ,
+      "class": "Manga",
+      "subclass": "Action",
+      "name": "Toilet-bound Hanako-kun",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51yDF8b+8jL._SX336_BO1,204,203,200_.jpg",
+      "price": 55
+    },
     {
       "id": 15,
-      "class": "Appliances",
-      "subclass": "Refrigerators & freezers",
-      "name": "LG Bottom Freezer",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/104/10416/10416143.jpg",
-      "price": 1399.99
+      "class": "Manga",
+      "subclass": "Adventure",
+      "name": "One Piece",
+      "picture": "https://cdn.shopify.com/s/files/1/0882/5118/products/VIZ_MEDIA-One_Piece_Vol_1_Manga-2166423_1024x1024.jpg",
+      "price": 65
     },
     {
       "id": 16,
-      "class": "Appliances",
-      "subclass": "Coffee & Espresso Makers",
-      "name": "Breville Grind Coffee Maker",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/103/10373/10373209.jpg",
-      "price": 299.99
+      "class": "Manga",
+      "subclass": "Adventure",
+      "name": "Naruto",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51BucomQlHL._SX333_BO1,204,203,200_.jpg",
+      "price": 50
     },
     {
       "id": 17,
-      "class": "Appliances",
-      "subclass": "Coffee & Espresso Makers",
-      "name": "Keurig K Coffee Maker",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/147/14769/14769526.jpg",
-      "price": 128.99
+      "class": "Manga",
+      "subclass": "Adventure",
+      "name": "Boruto: Naruto Next Generations",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/61zVA2kkgBL._SX331_BO1,204,203,200_.jpg",
+      "price": 65
     },
     {
       "id": 18,
-      "class": "Appliances",
-      "subclass": "Coffee & Espresso Makers",
-      "name": "Keurig K-Elite Coffee Maker",
-      "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/147/14772/14772992.jpg",
-      "price": 299.99
+      "class": "Manga",
+      "subclass": "Adventure",
+      "name": "Hunter x Hunter",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/51K4waiYZeL._SX331_BO1,204,203,200_.jpg",
+      "price": 55
     },
     {
-        "id": 19,
-        "class": "Computers and Tablet Accessories",
-        "subclass": "Laptops and Desktops",
-        "name": "Apple MacBook Pro 13.3",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/146/14627/14627724.jpg",
-        "price": 1529.99
-      }
-      ,
+      "id": 19,
+      "class": "Manga",
+      "subclass": "Adventure",
+      "name": "Bleach",
+      "picture": "https://images-na.ssl-images-amazon.com/images/I/516WLV8lFCL._SX331_BO1,204,203,200_.jpg",
+      "price": 65
+    },
     {
-        "id": 20,
-        "class": "Computers and Tablet Accessories",
-        "subclass": "Laptops and Desktops",
-        "name": "Apple MacBook air 13.3",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/145/14517/14517651.jpg",
-        "price": 1229.99
-      },
-      {
-        "id": 21,
-        "class": "Computers and Tablet Accessories",
-        "subclass": "Tablets, iPads and eReaders",
-        "name": "Apple iPad 10.2 with wifi",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/138/13893/13893721.jpg",
-        "price": 719.99
-      },
-      {
-        "id": 22,
-        "class": "Cell Phones",
-        "subclass": "iPhones",
-        "name": "Apple iPhone 7 32GB",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/135/13506/13506827.jpg",
-        "price": 229.99
-      },
-      {
-        "id": 23,
-        "class": "Cell Phones",
-        "subclass": "iPhones",
-        "name": "Apple iPhone 7 32GB",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/135/13506/13506813.jpg",
-        "price": 229.99
-      },
-      {
-        "id": 24,
-        "class": "Cell Phones",
-        "subclass": "iPhones",
-        "name": "Apple iPhone 12 128GB",
-        "picture": "https://multimedia.bbycastatic.ca/multimedia/products/500x500/149/14926/14926637.jpg",
-        "price": 1329.99
-      }
+      "id": 20,
+      "class": "Fiction",
+      "subclass": "Horror",
+      "name": "Sleeping Beauties",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781473681293c_4.jpg",
+      "price": 315
+    },
+    {
+      "id": 21,
+      "class": "Fiction",
+      "subclass": "Horror",
+      "name": "The Eyes of Darkness",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781472240293.jpg",
+      "price": 350
+    },
+    {
+      "id": 22,
+      "class": "Fiction",
+      "subclass": "Horror",
+      "name": "I Always Find You",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781787474529.jpg",
+      "price": 350
+    },
+    {
+      "id": 23,
+      "class": "Fiction",
+      "subclass": "Horror",
+      "name": "The Stand",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780593313886.jpg",
+      "price": 325
+    },
+    {
+      "id": 24,
+      "class": "Fiction",
+      "subclass": "Horror",
+      "name": "Finder Keeper",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781473698949c_1_2.jpg",
+      "price": 350
+    },
+    {
+      "id": 25,
+      "class": "Fiction",
+      "subclass": "General",
+      "name": "The Cat And The City",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786499912.jpg",
+      "price": 395
+    },
+    {
+      "id": 26,
+      "class": "Fiction",
+      "subclass": "General",
+      "name": "TYLL",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781529403671.jpg",
+      "price": 375
+    },
+    {
+      "id": 27,
+      "class": "Fiction",
+      "subclass": "General",
+      "name": "End of The Ocean",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781471175541.jpg",
+      "price": 350
+    },
+    {
+      "id": 28,
+      "class": "Fiction",
+      "subclass": "General",
+      "name": "Lonely Castle in The Mirror",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780857527288.jpg",
+      "price": 450
+    },
+    {
+      "id": 29,
+      "class": "Fiction",
+      "subclass": "General",
+      "name": "Last Act of Adam Campbell",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781473680456.jpg",
+      "price": 350
+    },
+    {
+      "id": 30,
+      "class": "Fiction",
+      "subclass": "Romance",
+      "name": "365 DAYS",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781398505964.jpg",
+      "price": 395
+    },
+    {
+      "id": 31,
+      "class": "Fiction",
+      "subclass": "Romance",
+      "name": "Without Merit",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781471174018_1.jpg",
+      "price": 199
+    },
+    {
+      "id": 32,
+      "class": "Fiction",
+      "subclass": "Romance",
+      "name": "Before",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781501130700_1.jpg",
+      "price": 525
+    },
+    {
+      "id": 33,
+      "class": "Fiction",
+      "subclass": "Romance",
+      "name": "After We Fell",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781476792507_1.jpg",
+      "price": 525
+    },
+    {
+      "id": 34,
+      "class": "Fiction",
+      "subclass": "Romance",
+      "name": "An Offer From A Gentleman",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780349429441.jpg",
+      "price": 395
+    },
+    {
+      "id": 35,
+      "class": "Fiction",
+      "subclass": "Crime & Mystery",
+      "name": "The Devil And The Dark Water",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781408889534.jpg",
+      "price": 375
+    },
+    {
+      "id": 36,
+      "class": "Fiction",
+      "subclass": "Crime & Mystery",
+      "name": "Not Dark Yet",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781529343120.jpg",
+      "price": 575
+    },
+    {
+      "id": 37,
+      "class": "Fiction",
+      "subclass": "Crime & Mystery",
+      "name": "Later",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781789096491.jpg",
+      "price": 395
+    },
+    {
+      "id": 38,
+      "class": "Fiction",
+      "subclass": "Crime & Mystery",
+      "name": "The Part-Time Job",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780571361786.jpg",
+      "price": 150
+    },
+    {
+      "id": 39,
+      "class": "Fiction",
+      "subclass": "Crime & Mystery",
+      "name": "Deadly Cross",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781780899497.jpg",
+      "price": 525
+    },
+    {
+      "id": 40,
+      "class": "Lifestyle",
+      "subclass": "Game & Sport",
+      "name": "Run well: Essential Health Question For Runner",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781472979674.jpg",
+      "price": 515
+    },
+    {
+      "id": 41,
+      "class": "Lifestyle",
+      "subclass": "Game & Sport",
+      "name": "Cross Word on Loo",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781789292992.jpg",
+      "price": 245
+    },
+    {
+      "id": 42,
+      "class": "Lifestyle",
+      "subclass": "Game & Sport",
+      "name": "Kobe: Life Lessons From A Legend",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781250275349.jpg",
+      "price": 635
+    },
+    {
+      "id": 43,
+      "class": "Lifestyle",
+      "subclass": "Game & Sport",
+      "name": "The Ultimate Trail Running Handbook",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781472974846.jpg",
+      "price": 675
+    },
+    {
+      "id": 44,
+      "class": "Lifestyle",
+      "subclass": "Game & Sport",
+      "name": "You Are Here Camping",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781797207858.jpg",
+      "price": 785
+    },
+    {
+      "id": 45,
+      "class": "Lifestyle",
+      "subclass": "Cookery-food-drink",
+      "name": "A Table: Recipe For Cooking And Eating The French Way",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781797202235.jpg",
+      "price": 935
+    },
+    {
+      "id": 46,
+      "class": "Lifestyle",
+      "subclass": "Cookery-food-drink",
+      "name": "Home Farm Cokking",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781838661267.jpg",
+      "price": 1550
+    },
+    {
+      "id": 47,
+      "class": "Lifestyle",
+      "subclass": "Cookery-food-drink",
+      "name": "The Little Book of BBQ",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781800690097.jpg",
+      "price": 235
+    },
+    {
+      "id": 48,
+      "class": "Lifestyle",
+      "subclass": "Cookery-food-drink",
+      "name": "Australia: The Cookbook",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781838662417.jpg",
+      "price": 1550
+    },
+    {
+      "id": 49,
+      "class": "Lifestyle",
+      "subclass": "Cookery-food-drink",
+      "name": "The Book of Green",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781607749844c.jpg",
+      "price": 1125
+    },
+    {
+      "id": 50,
+      "class": "Lifestyle",
+      "subclass": "Craft & Home",
+      "name": "Modern Quilting: 25 Step-By-Step Projects",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781782496410c.jpg",
+      "price": 525
+    },
+    {
+      "id": 51,
+      "class": "Lifestyle",
+      "subclass": "Craft & Home",
+      "name": "Fat Quater: Quick Makes",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781784943868c_4.jpg",
+      "price": 550
+    },
+    {
+      "id": 52,
+      "class": "Lifestyle",
+      "subclass": "Craft & Home",
+      "name": "Quil Art Chinese Style",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781602200401.jpg",
+      "price": 625
+    },
+    {
+      "id": 53,
+      "class": "Lifestyle",
+      "subclass": "Craft & Home",
+      "name": "A Little Book of Big Magical Stickers",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781523507139.jpg",
+      "price": 350
+    },
+    {
+      "id": 54,
+      "class": "Lifestyle",
+      "subclass": "Craft & Home",
+      "name": "Tilda Sunshine Sewing",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781446307021c_1.jpg",
+      "price": 525
+    },
+    {
+      "id": 55,
+      "class": "Lifestyle",
+      "subclass": "Entertainment",
+      "name": "You're Dad: A Little Book For Fathers (And The People Who Love Them)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780008436445.jpg",
+      "price": 395
+
+    },
+    {
+      "id": 56,
+      "class": "Lifestyle",
+      "subclass": "Entertainment",
+      "name": "Keep Calm You're Only 18",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781849533607c.jpg",
+      "price": 250
+      
+    },
+    {
+      "id": 57,
+      "class": "Lifestyle",
+      "subclass": "Entertainment",
+      "name": "The Clam Journal",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781787833029.jpg",
+      "price": 425
+      
+    },
+    {
+      "id": 58,
+      "class": "Lifestyle",
+      "subclass": "Entertainment",
+      "name": "How To Survive Being a Cat Owner",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786852649c_1.jpg",
+      "price": 295
+      
+    },
+    {
+      "id": 59,
+      "class": "Lifestyle",
+      "subclass": "Entertainment",
+      "name": "You And Me",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781787832251.jpg",
+      "price": 295
+      
+    },
+    {
+      "id": 60,
+      "class": "Travel & Maps",
+      "subclass": "Southeast Asia Guides",
+      "name": "Diving In Southeast Asia: A Guide To The Best Site In Indonesia, Malaysia, The Philippines, And Thailand",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780804845946c_2.jpg",
+      "price": 650
+    },
+    {
+      "id": 61,
+      "class": "Travel & Maps",
+      "subclass": "Southeast Asia Guides",
+      "name": "Lonely Planet: Best of Malaysia & Singapore",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786574961.jpg",
+      "price": 895
+    },
+    {
+      "id": 62,
+      "class": "Travel & Maps",
+      "subclass": "Southeast Asia Guides",
+      "name": "Lonely Planet: Pocket Bali (6th ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786578471.jpg",
+      "price": 495
+    },
+    {
+      "id": 63,
+      "class": "Travel & Maps",
+      "subclass": "Southeast Asia Guides",
+      "name": "Lonely Planet: Myanmar (Burma) (13th ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786575463_3.jpg",
+      "price": 995
+    },
+    {
+      "id": 64,
+      "class": "Travel & Maps",
+      "subclass": "Southeast Asia Guides",
+      "name": "Secret Bali: An Unusual Guide",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9782361953256.jpg",
+      "price": 775
+    },
+    {
+      "id": 65,
+      "class": "Travel & Maps",
+      "subclass": "Europe Guides",
+      "name": "Lonely Planet: Pocket Hamburg (1st ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781787017757c.jpg",
+      "price": 495
+    },
+    {
+      "id": 66,
+      "class": "Travel & Maps",
+      "subclass": "Europe Guides",
+      "name": "EWT Top 10 Amsterdam",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780241310618.jpg",
+      "price": 395
+    },
+    {
+      "id": 67,
+      "class": "Travel & Maps",
+      "subclass": "Europe Guides",
+      "name": "Lonely Planet: Pocket Porto (2nd ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786572882.jpg",
+      "price": 495
+    },
+    {
+      "id": 68,
+      "class": "Travel & Maps",
+      "subclass": "Europe Guides",
+      "name": "Lonely Planet: Portugal (11th ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9781786578013.jpg",
+      "price": 895
+    },
+    {
+      "id": 69,
+      "class": "Travel & Maps",
+      "subclass": "Europe Guides",
+      "name": "Eyewitness TOP 10 Scotland",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/8/1/81j33rfwikl.jpg",
+      "price": 375
+    },
+    {
+      "id": 70,
+      "class": "Travel & Maps",
+      "subclass": "America Guides",
+      "name": "Eyewitness Travel Guides: USA (8th ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/264x/17f82f742ffe127f42dca9de82fb58b1/9/7/9780241408636.jpg",
+      "price": 750
+    },
+    {
+      "id": 71,
+      "class": "Travel & Maps",
+      "subclass": "America Guides",
+      "name": "Buenos Aires",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786570314_2.jpg",
+      "price": 750
+    },
+    {
+      "id": 72,
+      "class": "Travel & Maps",
+      "subclass": "America Guides",
+      "name": "Lonely Planet: California (8th ED.)",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9781786573483c_1.jpg",
+      "price": 875
+    },
+    {
+      "id": 73,
+      "class": "Travel & Maps",
+      "subclass": "America Guides",
+      "name": "EWT TOP 10 San Diego",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/9780241367964.jpg",
+      "price": 375
+    },
+    {
+      "id": 74,
+      "class": "Travel & Maps",
+      "subclass": "America Guides",
+      "name": "Lonely Planet: Pocket Toronto",
+      "picture": "https://www.asiabooks.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/1/719ejag7opl.jpg",
+      "price": 495
+    }
   ]
   

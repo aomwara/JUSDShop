@@ -3,7 +3,7 @@ const mnemonic = "b57135c2199e24e87cb78cce1c86e707527958370d2c9466435eef7998c4ce
 const liveNetwork = "https://wrnec-mainnet.aomwara.space";
 
 module.exports = {
-  
+
   networks: {
 
     development: {
@@ -16,6 +16,7 @@ module.exports = {
       provider: () => new HDWalletProvider(mnemonic, liveNetwork),
       network_id: "*"
     }
+    
   },
 
   mocha: {

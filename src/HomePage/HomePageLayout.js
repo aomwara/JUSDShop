@@ -314,54 +314,76 @@ class HomePageLayout extends React.Component {
         <Router>
           
             <Menu theme="light" mode="horizontal" sticky="top">
-              <SubMenu title="JUSD Shopping" onTitleClick={() => window.location = '/'}>
+              <SubMenu title="Jack Book Store" onTitleClick={() => window.location = '/'}>
               </SubMenu>
               <SubMenu icon={<MenuOutlined />} title="Categories">
-                {/* Appliances */}
-                <SubMenu title="Appliances">
-                  <Menu.Item key="rf">
-                    <Link to="/appliances/refrigerators_freezers">Refrigerators & Freezers</Link>
+              {/* Manga */}
+                <SubMenu title="Manga">
+                  <Menu.Item key="fts">
+                    <Link to="/Manga/Fantasy">Fantasy</Link>
                   </Menu.Item>
-                  <Menu.Item key="cem">
-                    <Link to="/appliances/Coffee_Espresso-Makers">
-                      Coffee & Espresso Makers
+                  <Menu.Item key="scl">
+                    <Link to="/Manga/SchoolLife">
+                      School Life
                     </Link>
                   </Menu.Item>
-                  <Menu.Item key="ap">
-                    <Link to="/appliances/air-purifiers">Air Purifiers</Link>
+                  <Menu.Item key="ac">
+                    <Link to="/Manga/Action">Action</Link>
+                  </Menu.Item>
+                  <Menu.Item key="avt">
+                    <Link to="/Manga/Adventure">Adventure</Link>
                   </Menu.Item>
                 </SubMenu>
-                {/* Computers, Tablets & Accessories */}
-                <SubMenu title="Computers, Tablets & Accessories">
-                  <Menu.Item key="td">
-                    <Link to="/computers_tablets_accessories/Laptops_Desktops">
-                      Laptops and Desktops
+
+              {/* Fiction */}
+                <SubMenu title="Fiction">
+                  <Menu.Item key="hr">
+                    <Link to="/Fiction/Horror">Horror</Link>
+                  </Menu.Item>
+                  <Menu.Item key="gen">
+                    <Link to="/Fiction/General">
+                      General
                     </Link>
                   </Menu.Item>
-                  <Menu.Item key="tie">
-                    <Link to="/computers_tablets_accessories/Tablets_iPads_eReaders">
-                      Tablets, iPads & eReaders
-                    </Link>
+                  <Menu.Item key="rm">
+                    <Link to="/Fiction/Romance">Romance</Link>
                   </Menu.Item>
-                </SubMenu>
-                {/* Cell Phones */}
-                <SubMenu key="cellphones" title="Cell Phones">
-                  <Menu.Item key="iphones">
-                    <Link to="/cell-phones/iphones">
-                      iPhones
-                    </Link>
-                  </Menu.Item>
-                  <Menu.Item key="sp">
-                    <Link to="/cellphones/samsung-phones">
-                      Samsung Phones
-                    </Link>
-                  </Menu.Item>
-                  <Menu.Item key="gp">
-                    <Link to="/cellphones/google-phones">
-                      Google Phones
-                    </Link>
+                  <Menu.Item key="crm">
+                    <Link to="/Fiction/Crime-Mystery">Crime & Mystery</Link>
                   </Menu.Item>
                 </SubMenu>
+
+              {/* Life Style */}
+                <SubMenu title="Life Style">
+                  <Menu.Item key="gsp">
+                    <Link to="/LifeStyle/Game-Sport">Game & Sport</Link>
+                  </Menu.Item>
+                  <Menu.Item key="cook">
+                    <Link to="/LifeStyle/CookFoodDrink">
+                      Cook/Food/Drink
+                    </Link>
+                  </Menu.Item>
+                  <Menu.Item key="ch">
+                    <Link to="/LifeStyle/CraftHome">Craft & Home</Link>
+                  </Menu.Item>
+                   <Menu.Item key="etm">
+                    <Link to="/LifeStyle/Entertainment">Entertainment</Link>
+                  </Menu.Item>
+                </SubMenu>
+
+              {/* Travel & maps */}
+                <SubMenu title="Travel">
+                  <Menu.Item key="sea">
+                    <Link to="/Travel/Southeast-Asia">Southeast Asia Guides</Link>
+                  </Menu.Item>
+                  <Menu.Item key="amer">
+                    <Link to="/Travel/America">America Guides</Link>
+                  </Menu.Item>
+                   <Menu.Item key="erp">
+                    <Link to="/Travel/Europe">Europe Guides</Link>
+                  </Menu.Item>
+                </SubMenu>
+
               </SubMenu>
               <SubMenu icon={<UserOutlined />} style={{ float: 'right', color: "black" }}>
                 <Menu.Item ><Link to="/orders">Your Orders</Link></Menu.Item>
@@ -451,43 +473,70 @@ class HomePageLayout extends React.Component {
               <Route exact path="/"><LandingPage account={this.state.account}></LandingPage></Route>
                {/* <h1>You Have {this.state.JUSDAmount}  $JUSD</h1> */} 
 
-              <Route exact path="/appliances">
-                <ItemPage2 class="Appliances" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/Manga">
+                <ItemPage2 class="Manga" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/appliances/air-purifiers">
-                <ItemPage class="Appliances" subclass="Air Purifiers" sublink="/appliances" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/Manga/Fantasy">
+                <ItemPage class="Manga" subclass="Fantasy" sublink="/Manga" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/appliances/refrigerators_freezers">
-                <ItemPage class="Appliances" subclass="Refrigerators & freezers" sublink="/appliances" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/Manga/SchoolLife">
+                <ItemPage class="Manga" subclass="School Life" sublink="/Manga" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/appliances/Coffee_Espresso-Makers">
-                <ItemPage class="Appliances" subclass="Coffee & Espresso Makers" sublink="/appliances" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/Manga/Action">
+                <ItemPage class="Manga" subclass="Action" sublink="/Manga" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-
-
-              <Route exact path="/computers_tablets_accessories">
-                <ItemPage2 class="Computers and Tablet Accessories" account={this.state.account} onAddItem={this.handleAddItem} />
-              </Route>
-              <Route exact path="/computers_tablets_accessories/Laptops_Desktops">
-                <ItemPage class="Computers and Tablet Accessories" subclass="Laptops and Desktops" sublink="/computers_tablets_accessories" account={this.state.account} onAddItem={this.handleAddItem} />
-              </Route>
-              <Route exact path="/computers_tablets_accessories/Tablets_iPads_eReaders">
-                <ItemPage class="Computers and Tablet Accessories" subclass="Tablets, iPads and eReaders" sublink="/computers_tablets_accessories" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/Manga/Adventure">
+                <ItemPage class="Manga" subclass="Adventure" sublink="/Adventure" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
 
 
-              <Route exact path="/cell-phones">
-                <ItemPage2 class="Cell Phones" account={this.state.account} onAddItem={this.handleAddItem} />
+
+              <Route exact path="/LifeStyle">
+                <ItemPage2 class="Lifestyle" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/cell-phones/iphones">
-                <ItemPage class="Cell Phones" subclass="iPhones" sublink="/cell-phones" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/LifeStyle/Game-Sport">
+                <ItemPage class="Lifestyle" subclass="Game & Sport" sublink="/Game-Sport" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/cellphones/samsung-phones">
-                <ItemPage class="Cell Phones" subclass="Samsung Phones" sublink="/cell-phones" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/LifeStyle/CookFoodDrink">
+                <ItemPage class="Lifestyle" subclass="Cookery-food-drink" sublink="/Cookery-food-drink" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
-              <Route exact path="/cellphones/google-phones">
-                <ItemPage class="Cell Phones" subclass="Google Phones" sublink="/cell-phones" account={this.state.account} onAddItem={this.handleAddItem} />
+              <Route exact path="/LifeStyle/CraftHome">
+                <ItemPage class="Lifestyle" subclass="Craft & Home" sublink="/CraftHome" account={this.state.account} onAddItem={this.handleAddItem} />
               </Route>
+              <Route exact path="/LifeStyle/Entertainment">
+                <ItemPage class="Lifestyle" subclass="Entertainment" sublink="/Entertainment" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+
+
+              <Route exact path="/Fiction">
+                <ItemPage2 class="Fiction" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Fiction/Horror">
+                <ItemPage class="Fiction" subclass="Horror" sublink="/Horror" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Fiction/General">
+                <ItemPage class="Fiction" subclass="General" sublink="/General" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Fiction/Romance">
+                <ItemPage class="Fiction" subclass="Romance" sublink="/Romance" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Fiction/Crime-Mystery">
+                <ItemPage class="Fiction" subclass="Crime & Mystery" sublink="/Crime-Mystery" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+
+              <Route exact path="/Travel">
+                <ItemPage2 class="Travel & Maps" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Travel/Southeast-Asia">
+                <ItemPage class="Travel & Maps" subclass="Southeast Asia Guides" sublink="/Southeast-Asia" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Travel/America">
+                <ItemPage class="Travel & Maps" subclass="America Guides" sublink="/America" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+              <Route exact path="/Travel/Europe">
+                <ItemPage class="Travel & Maps" subclass="Europe Guides" sublink="/Europe" account={this.state.account} onAddItem={this.handleAddItem} />
+              </Route>
+
               <Route exact path="/orders"><OrderPage orders={this.state.orders} /></Route>
             </div>
 
