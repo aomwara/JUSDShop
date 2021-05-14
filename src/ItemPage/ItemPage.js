@@ -27,7 +27,7 @@ class ItemPage extends React.Component {
     add(item) {
         const itemCount = +localStorage.getItem("itemCount" + this.props.account) || 0;
         var newItemCount = itemCount + 1
-        // var itemInCart = [];
+
         var itemInCart = JSON.parse(localStorage.getItem("itemInCart" + this.props.account) || "[]");
 
         console.log(itemInCart)

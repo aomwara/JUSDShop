@@ -16,7 +16,7 @@ contract Shop {
     */
 
     uint public order_count = 0;
-    
+
     mapping(uint => Order) public orders;
 
     JUSDToken token;
@@ -49,6 +49,7 @@ contract Shop {
     function createOrder(uint[] memory ids, uint total) public {
         require(msg.sender != address(0));
         require(ids.length > 0);
+        uint order_sum_price = 0;
 
         orders[order_count].order_id = order_count;
         orders[order_count].item_count = ids.length;
@@ -57,8 +58,10 @@ contract Shop {
 
         for (uint i = 0; i < ids.length; i++){
           orders[order_count].items[i] = ids[i];
-          token.transferFrom(msg.sender ,address(0), orders[order_count].total*100);
+          order_sum_price += orders[order_count].total;
         }
+
+        token.transferFrom(msg.sender ,address(0), order_sum_price*100);
 
         order_count ++;
         emit orderCreated(order_count, ids.length, total);
