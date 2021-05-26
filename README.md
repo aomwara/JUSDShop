@@ -15,7 +15,7 @@
 
 # ข้อมูล RPC Network
 | Network Name	 | JackShop Chain |
-| :---: | :---: | 
+| :---: | :--- | 
 | RPC URL |	https://wrnec-mainnet.aomwara.space |
 | Chain ID |	1337 |
 | Symbol |	JCK |
