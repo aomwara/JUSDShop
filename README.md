@@ -18,7 +18,7 @@
 | :---: | :---: | 
 | RPC URL |	https://wrnec-mainnet.aomwara.space |
 | Chain ID |	1337 |
-| Symbol |	ETH |
+| Symbol |	JCK |
 | Block Explorer |	https://bxscan.aomwara.space/#/ | 
 
 
